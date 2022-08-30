@@ -1,3 +1,5 @@
+package com.java2.basic;
+
 import java.util.Scanner;
 
 public class Main {
