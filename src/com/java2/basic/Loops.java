@@ -4,13 +4,16 @@ import java.util.Scanner;
 
 public class Loops {
     public static void main(String[] args) {
-
-        for (int i = 0; i <= 5; i++) {
+        //Hello
+        for (int i = 1; i <= 5; i++) {
+            System.out.print((1.0/i) + "  ");
+        }
+        /*for (int i = 0; i <= 5; i++) {
             if(i==2){
                 continue;
             }
             System.out.println(i);
-        }
+        }*/
         /*Scanner in = new Scanner(System.in);
         System.out.println("Please enter number below 100");
         int x = in.nextInt();
