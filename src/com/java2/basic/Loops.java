@@ -4,10 +4,91 @@ import java.util.Scanner;
 
 public class Loops {
     public static void main(String[] args) {
+
+        for(int i = 0 ; i<10 ;  i++){
+            for (int j = 0 ; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        /*for(int i = 1 ; i<=4 ; i++){
+            System.out.println("Week " + i );
+            for(int j = 1; j<=7 ; j++){
+                System.out.print("Day " + j + "  ");
+            }
+            System.out.println();
+            System.out.println("___________________________________");
+        }*/
+
+        /*for(int i = 0 ; i<3 ; i++){
+            for (int j = 0 ;j<5;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+        /*System.out.println();
+        for(int i = 0 ; i<5 ; i++){
+            System.out.print("*");
+        }
+        System.out.println();
+
+        for(int i = 0 ; i<5 ; i++){
+            System.out.print("*");
+        }*/
+        /*int f=1;
+        for(int x= 1;x<=10;x++) {
+            f = f * x;
+            System.out.println(f);
+        }
+
+        System.out.println(f);*/
+        /*
+        6. كتابة برنامج يسمح للمستخدم بإدخال رقم ، ويجعل ويظهر البرنامج الرقم اذا كان زوجي ام فردي من خلال for loop ويتوقف البرنامج عند ادخال 0 .
+
+
+        Scanner scanner = new Scanner(System.in);
+        int c = scanner.nextInt();
+        if(c==0){
+            return;
+        }
+        for(;;){
+             if(c%2!=0){
+                System.out.println("odd");
+                c = scanner.nextInt();
+            }else {
+                System.out.println("Even");
+                c = scanner.nextInt();
+            }
+
+        }
+*/
+        /*5. كتابة برنامج يسمح للمستخدم بإدخال اسماء المستخدمين بحيث يتوقف البرنامج عند وجود اسم (No name) .
+        Scanner scanner = new Scanner(System.in);
+        String c = scanner.nextLine();
+
+        for(;;){
+            if(c.equalsIgnoreCase("no name")){
+                break;
+            }
+            c = scanner.nextLine();
+        }*/
+
+        // 1/1 + 1/2 + 1/3 + 1/4 +....+1/n
+        /*int sum = 0;
+        for (int x = 1; x < 100; x++) {
+
+            if(x%2==0){
+                sum += x;
+            }
+        }
+        System.out.println(sum);*/
+
+       /*
         //Hello
         for (int i = 1; i <= 5; i++) {
             System.out.print((1.0/i) + "  ");
-        }
+        }*/
         /*for (int i = 0; i <= 5; i++) {
             if(i==2){
                 continue;
