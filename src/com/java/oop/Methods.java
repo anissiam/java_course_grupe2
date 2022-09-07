@@ -7,6 +7,7 @@ public class Methods {
     public static void main(String[] args) {
         int x = 10;
         int y = 20;
+
         //System.out.println(addNumbers2(x, y));
 
         /*Scanner scanner = new Scanner(System.in);
