@@ -5,8 +5,63 @@ import java.util.Scanner;
 public class Arrays {
     public static void main(String[] args) {
 
+        /*(4)
+        String[][] month = {
+                {"sat", "sun", "mon", "tu", "we", "thr", "fri"},
+                {"sat", "sun", "mon", "tu", "we", "thr", "fri"},
+                {"sat", "sun", "mon", "tu", "we", "thr", "fri"},
+                {"sat", "sun", "mon", "tu", "we", "thr", "fri"}};
+        for (int i = 0; i < month.length; i++) {
+            System.out.println("Week" + (i + 1));
+            for(int j = 0 ; j<month[i].length;j++){
+                System.out.print(month[i][j] + " ");
+            }
+            System.out.println("");
+        }*/
+       /* (3)
+       int[][] y = {{5,8,6} , {1,2,6,8} , {3,10,9} ,  {8,6,3}};
+
+        System.out.println(y.length);
+        System.out.println(y[0].length);
+        System.out.println(y[1].length);
+         for(int i=0;i<y.length ; i++){
+             for(int j =0 ; j<y[i].length;j++){
+                 System.out.print(y[i][j]+" ");
+             }
+             System.out.println("");
+         }*/
+
+        //error
+       /* for(int i = 0; i<4; i++){
+            for(int j = 0;j<4;j++){
+                System.out.print(y[i][j]+ " ");
+            }
+            System.out.println("");
+        }*/
+        /*(2)
+        int [][]x = new int[3][4];
+        for(int i = 0; i<3; i++){
+            for(int j = 0;j<4;j++){
+                System.out.print(x[i][j]);
+            }
+        }*/
+        // Multi dim. array
+        //(1)
+       /* int [][]x = new int[5][8];
+        System.out.println(x.length);
+        System.out.println(x[0].length);
+
+        /*for(int i = 0 ; i<x.length;i++){
+            System.out.print("x[" + i + "]");
+            for(int j=0 ; j<x[i].length;j++){
+                System.out.print(x[i][j] + "");
+            }
+            System.out.println("");
+        }*/
 
 
+
+        // One Dim.. array
         /*
         (8)
              //0  1  2  3  4   5   6   7
