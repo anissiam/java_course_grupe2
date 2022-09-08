@@ -1,5 +1,6 @@
 package com.java.oop;
 
+import java.awt.*;
 import java.util.Scanner;
 
 public class Methods {
