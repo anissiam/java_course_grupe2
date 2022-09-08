@@ -36,7 +36,6 @@ public class Methods {
         int y = 10;
         System.out.println(x + y);
 
-
     }
 
     public static void addNumbers1(int x , int y){
