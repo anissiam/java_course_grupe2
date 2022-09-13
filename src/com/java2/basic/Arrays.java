@@ -5,6 +5,13 @@ import java.util.Scanner;
 public class Arrays {
     public static void main(String[] args) {
 
+        String[] names = {"ali" , "sami" , "soso","ali" , "locy"};
+        String compre = names[0];
+        for (int i =0; i<names.length;i++){
+            if(compre.equals(names[i])){
+                System.out.println(names[i]);
+            }
+        }
         /*(4)
         String[][] month = {
                 {"sat", "sun", "mon", "tu", "we", "thr", "fri"},
