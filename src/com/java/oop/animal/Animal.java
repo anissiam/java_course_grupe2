@@ -12,6 +12,7 @@ public class Animal {
         this.age = age;
     }
     public void display(){
+
         System.out.println(name + " " + age);
     }
     public void sound(String s){

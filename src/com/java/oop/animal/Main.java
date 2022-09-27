@@ -3,7 +3,19 @@ package com.java.oop.animal;
 import java.util.Scanner;
 
 public class Main {
+/*
+    static Animal a;
+*/
     public static void main(String[] args) {
+
+        /*a.display();
+
+        Animal[] animal = new Animal[5];
+        animal[0] = new Animal("losy", 10);
+
+        for (Animal animal1 : animal) {
+            animal1.display();
+        }*/
         data();
     }
 
